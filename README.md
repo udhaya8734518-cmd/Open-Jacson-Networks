@@ -27,6 +27,7 @@ mu2=1/(ser_time2+Robot_time)
 mu3=1/(ser_time3+Robot_time)
 print("-----------------------------------------------------------------------")
 print("Series Queues with infinite capacity- Open Jackson Network")
+print("-----------------------------------------------------------------------")
 if (lam <  mu1) and (lam <  mu2) and (lam <  mu3):
     Ls1=lam/(mu1-lam)
     Ls2=lam/(mu2-lam)
